@@ -1,0 +1,1 @@
+./dist/build/resource-loader/resource-loader data.csv 6

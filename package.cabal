@@ -1,0 +1,23 @@
+Name:           ResourceDownloader
+Version:        0.1
+Cabal-Version:  >= 1.2
+License:        BSD3
+Author:         Stephen Scott
+Synopsis:       Small program to download resources from a CSV input
+Build-Type:     Simple
+
+Executable resource-loader
+  Build-Depends:
+    base >= 4.8.2,
+    parsec >= 3.1.9,
+    hxt,
+    url,
+    HTTP,
+    bytestring,
+    network-uri,
+    http-conduit,
+    split,
+    directory,
+    time
+  Main-Is:        Main.hs
+  Hs-Source-Dirs: src
